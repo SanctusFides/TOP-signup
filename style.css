@@ -26,7 +26,7 @@ body {
     align-items: center;
     background-image: url("plant.avif");
     background-size: cover;
-    width: 66vw;
+    max-width: 66vw;
     height: 100vh;
     color: white;
 }
