@@ -26,7 +26,11 @@ body {
     align-items: center;
     background-image: url("plant.avif");
     background-size: cover;
+<<<<<<< HEAD
     min-width: 35%;
+=======
+    width: 33%;
+>>>>>>> b4b14f5356afd5a532ea3164b34c88c3184cbf33
     height: 100vh;
     color: white;
 }
