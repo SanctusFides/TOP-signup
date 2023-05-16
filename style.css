@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'nord';
     src: url('norse.otf');
-  }
-  
+}
+
 
 body {
     padding: 0;
@@ -26,12 +26,12 @@ body {
     align-items: center;
     background-image: url("plant.avif");
     background-size: cover;
-    width: 66vw;
+    min-width: 35%;
     height: 100vh;
     color: white;
 }
 
-.logo{
+.logo {
     font-family: nord;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -40,7 +40,7 @@ body {
     top: 20%;
 }
 
-h1{
+h1 {
     opacity: 1;
     text-align: center;
     margin: 0;
@@ -89,10 +89,10 @@ h1{
 }
 
 input {
-    width: 20vw;
-    padding: 5px;
+    width: 35ch;
+    padding: 8px;
     border-radius: 5px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border: 1px solid lightgray;
 
 }
@@ -113,7 +113,7 @@ label {
     font-weight: 00;
 }
 
-button{
+button {
     color: white;
     background-color: #596D48;
     border-radius: 8px;
@@ -123,7 +123,7 @@ button{
     border: none;
 }
 
-a{
+a {
     color: #596D48;
 }
 
