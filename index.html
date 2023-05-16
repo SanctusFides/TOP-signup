@@ -1,54 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
-    <div id="container">
+    <div class="container">
 
-        <div id="splash">
-            <h1>ODIN</h1>
-
+        <div class="splash">
+            <div class="logo">
+                <h1>ODIN</h1>
+            </div>
+            <div class="credit">
+                <p>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a
+                        href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+            </div>
         </div>
 
-        <div id="signup">
-            <div id="signup-top">
-                <p>This is not a real online serivce! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+        <div class="signup">
+            <div class="signup-top">
+                <p>This is not a real online serivce! You know you need something like this in your life to help you
+                    realize your deepest dreams. Sign up <i>now</i> to get started.</p>
                 <p>You <i>know</i> you want to.</p>
             </div>
 
-            <div id="signup-mid">
+            <div class="signup-mid">
                 <p>Let's do this!</p>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name">
+                <form action="" class="signupsheet">
+                    <label for="first-name">FIRST NAME</label>
+                    <label for="last-name">LAST NAME</label>
 
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name">
+                    <input type="text" name="first-name" id="first-name">
+                    <input type="text" name="last-name" id="last-name">
 
-                <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email">
+                    <label for="email">EMAIL</label>
+                    <label for="phone">PHONE NUMBER</label>
 
-                <label for="phone">PHONE NUMBER</label>
-                <input type="text" name="phone" id="phone">
-                
-                <label for="password">PASSWORD</label>
-                <input type="password" name="password" id="password">
-                
-                <label for="confpassword">CONFIRM PASSWORD</label>
-                <input type="password" name="confpassword" id="confpassword">
-                
+                    <input type="email" name="email" id="email">
+                    <input type="tel" name="phone" id="phone">
+
+                    <label for="password">PASSWORD</label>
+                    <label for="confpassword">CONFIRM PASSWORD</label>
+
+                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="confpassword" id="confpassword" onkeyup="check()" required>
+                    <span id="error"></span>
+                </form>
             </div>
 
-            <div id="signup-bottom">
+            <div class="signup-bottom">
                 <button>Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
+                <p>Already have an account? <a href="zooplyloop" id="login">Log in</a></p>
             </div>
         </div>
 
 
     </div>
 </body>
+
 </html>
